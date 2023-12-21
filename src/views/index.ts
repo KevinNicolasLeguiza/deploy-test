@@ -1,3 +1,3 @@
-export * from './Home/Home'
+export * from './Home/Home';
 
-export * from './Workspace/Workspace'
+export * from './Workspace/Workspace';
