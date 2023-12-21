@@ -1,0 +1,8 @@
+.dropdown_min_height,
+.dropdown_min_height > button {
+  min-height: 38px!important;
+}
+
+.dropdown_sm_text {
+  font-size: .6rem;
+}
