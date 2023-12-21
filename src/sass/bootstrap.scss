@@ -1,12 +1,17 @@
+$primary: #d84a1b;
+$secondary: #8fd460;
+
+$warning: #fffbe6;
+$warning-border-subtle: #ffe58f;
+
 @import '../../node_modules/bootstrap/scss/functions';
 @import '../../node_modules/bootstrap/scss/variables';
 @import '../../node_modules/bootstrap/scss/mixins';
 
-$primary: #F00;
-
-$custom-theme-colors: ();
+$custom-theme-colors: (
+  default: $gray-400,
+);
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
-
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';

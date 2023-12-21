@@ -1,5 +1,10 @@
 @import './bootstrap.scss';
 
+:root {
+  --header-height: 60px;
+  --header-sections: 2;
+}
+
 .main {
   width: 100%;
   min-height: 100vh;
