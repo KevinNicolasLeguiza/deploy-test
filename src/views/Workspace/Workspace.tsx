@@ -1,22 +1,25 @@
-import { ProductCard } from '@/components'
+// import { ProductCard } from '@/components'
+import { Header, SearchBar } from '@/components';
 
 export function Workspace() {
-  return <div className='container'>
-    <div className="row">
-      <div className="col-6">
-        <ProductCard />
+  return (
+    <main
+      className="main d-grid"
+      style={{ gridTemplateRows: 'calc(var(--header-height) * var(--header-sections)) 1fr' }}
+    >
+      <div>
+        <div
+          className="position-fixed start-0 top-0 w-100 d-grid"
+          style={{ gridTemplateRows: 'repeat(var(--header-sections), var(--header-height))' }}
+        >
+          <Header />
+          <SearchBar />
+        </div>
       </div>
-      <div className="col-6">
-        <ProductCard />
+      {/* CONTENT */}
+      <div className="container">
+        <span>content</span>
       </div>
-    </div>
-    <div className='row'>
-      <div className="col-6">
-        <ProductCard />
-      </div>
-      <div className="col-6">
-        <ProductCard />
-      </div>
-    </div>
-  </div>
+    </main>
+  );
 }

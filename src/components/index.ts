@@ -1,3 +1,3 @@
-export * from './Product-cards/Product-card/ProductCard'
-
-export * from './Sidebar/Sidebar'
+export * from './Layout';
+export * from './Modals';
+export * from './Product-cards';
