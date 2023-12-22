@@ -1,4 +1,4 @@
-import { CategoryCard, Header, HomeCarousel, HomeFooter, ProductCard, SearchBar } from '@/components';
+import { CategoryCard, Header, HomeCarousel, HomeFooter, ProductCard, SearchBar, WelcomeModal } from '@/components';
 
 export function Home() {
   return (
@@ -17,6 +17,7 @@ export function Home() {
       </div>
       {/* CONTENT */}
       <div className="container">
+        <WelcomeModal />
         {/* Alert */}
         <div className="row">
           <div className="col">

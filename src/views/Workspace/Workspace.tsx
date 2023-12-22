@@ -1,5 +1,4 @@
-// import { ProductCard } from '@/components'
-import { Header, SearchBar } from '@/components';
+import { FinalizePurchaseModal, Header } from '@/components';
 
 export function Workspace() {
   return (
@@ -13,12 +12,11 @@ export function Workspace() {
           style={{ gridTemplateRows: 'repeat(var(--header-sections), var(--header-height))' }}
         >
           <Header />
-          <SearchBar />
         </div>
       </div>
       {/* CONTENT */}
-      <div className="container">
-        <span>content</span>
+      <div className="container px-0">
+        <FinalizePurchaseModal />
       </div>
     </main>
   );

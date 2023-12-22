@@ -3,8 +3,8 @@ export function WelcomeModal() {
     <>
       {/* FIXME[epic=remove] */}
       {/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#welcome-modal">
-      Launch demo modal
-    </button> */}
+        Launch demo modal
+      </button> */}
       <div
         className="modal fade"
         id="welcome-modal"
