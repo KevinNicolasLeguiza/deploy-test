@@ -1,6 +1,6 @@
 export function SearchBar() {
   return (
-    <div className="container pt-3">
+    <div className="container pt-3 bg-white">
       <div className="row">
         <div className="col my-auto">
           <div className="input-group">

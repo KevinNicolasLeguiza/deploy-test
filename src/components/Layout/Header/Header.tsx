@@ -3,7 +3,7 @@ import { Sidebar } from '@/components';
 export function Header() {
   return (
     <div>
-      <div className="w-100 d-flex flex-row justify-content-center align-items-center">
+      <div className="w-100 d-flex flex-row justify-content-center align-items-center bg-white">
         <div
           className="container"
           style={{ height: 'var(--header-height)' }}
