@@ -10,6 +10,7 @@ $warning-border-subtle: #ffe58f;
 
 $custom-theme-colors: (
   default: $gray-400,
+  gold: #FAAD14,
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
