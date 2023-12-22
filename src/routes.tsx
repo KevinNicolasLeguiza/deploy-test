@@ -1,4 +1,4 @@
-import { DeliveryData, Home, MyBasket, Workspace } from '@/views';
+import { DeliveryData, Home, MyBasket, PaymentMethods, Workspace } from '@/views';
 
 export const routes = Object.freeze({
   Home: {
@@ -12,6 +12,10 @@ export const routes = Object.freeze({
   'Delivery data': {
     path: '/delivery-data',
     element: <DeliveryData />,
+  },
+  'Payment methods': {
+    path: '/payment-methods',
+    element: <PaymentMethods />,
   },
   Workspace: {
     path: '/workspace',
