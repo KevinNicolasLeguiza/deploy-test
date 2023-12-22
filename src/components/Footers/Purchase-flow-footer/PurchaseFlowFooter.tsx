@@ -1,4 +1,4 @@
-export function MyBasketFooter() {
+export function PurchaseFlowFooter() {
   return (
     <div
       className="position-fixed start-0 bottom-0 w-100 d-flex flex-row justify-content-end align-items-center gap-2 p-3 z-1 card"

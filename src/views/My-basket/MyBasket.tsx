@@ -1,4 +1,4 @@
-import { FinalizePurchaseModal, Header, HorizontalProductCard, MyBasketFooter } from '@/components';
+import { FinalizePurchaseModal, Header, HorizontalProductCard, PurchaseFlowFooter } from '@/components';
 
 export function MyBasket() {
   return (
@@ -139,7 +139,7 @@ export function MyBasket() {
       </div>
       {/* Footer */}
       <div className="py-5">
-        <MyBasketFooter />
+        <PurchaseFlowFooter />
       </div>
     </main>
   );
