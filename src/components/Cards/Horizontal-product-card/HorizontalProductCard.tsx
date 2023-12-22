@@ -24,10 +24,7 @@ export function HorizontalProductCard() {
           </div>
           {/* Quantity controls */}
           <div className="row mt-2">
-            <div
-              className="col-3 col-lg-1 p-0"
-              style={{ zIndex: -1 }}
-            >
+            <div className="col-3 col-lg-1 p-0">
               <button className="btn btn-success disabled w-100 h-100 p-0">
                 <span className="fs-5">-</span>
               </button>
@@ -35,10 +32,7 @@ export function HorizontalProductCard() {
             <div className="col col-lg-3 p-0 d-flex justify-content-center align-items-center bg-secondary-subtle rounded h-100 my-auto py-2 mx-2">
               <span>2</span>
             </div>
-            <div
-              className="col-3 col-lg-1 p-0"
-              style={{ zIndex: -1 }}
-            >
+            <div className="col-3 col-lg-1 p-0">
               <button className="btn btn-success disabled w-100 h-100 p-0">
                 <span className="fs-5">+</span>
               </button>
