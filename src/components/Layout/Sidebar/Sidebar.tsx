@@ -33,7 +33,7 @@ export function Sidebar() {
         <ol>
           {Object.entries(routes).map(([pathName, { path }], key) => (
             <li key={key}>
-              <a href={path}>{pathName}</a>
+              <a href={`/#${path}`}>{pathName}</a>
             </li>
           ))}
         </ol>

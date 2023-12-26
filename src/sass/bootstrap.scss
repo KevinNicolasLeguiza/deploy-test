@@ -9,8 +9,8 @@ $warning-border-subtle: #ffe58f;
 @import '../../node_modules/bootstrap/scss/mixins';
 
 $custom-theme-colors: (
-  default: $gray-400,
-  gold: #FAAD14,
+  "default": $gray-400,
+  "gold": #FAAD14,
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
