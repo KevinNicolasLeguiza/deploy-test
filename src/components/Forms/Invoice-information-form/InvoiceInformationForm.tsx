@@ -60,7 +60,7 @@ export function InvoiceInformationForm() {
           <div className="input-group bg-default">
             <img
               className="input-group-text bg-transparent border-end-0"
-              src="/public/icons/calendar-icon.svg"
+              src={`${import.meta.env.BASE_URL || ''}/public/icons/calendar-icon.svg`}
             />
             <input
               id="birthdate-input"
@@ -77,7 +77,7 @@ export function InvoiceInformationForm() {
           <div className="input-group bg-default">
             <img
               className="input-group-text bg-transparent border-end-0"
-              src="/public/icons/phone-icon.svg"
+              src={`${import.meta.env.BASE_URL || ''}/public/icons/phone-icon.svg`}
             />
             <input
               id="phone-input"

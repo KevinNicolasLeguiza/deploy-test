@@ -22,7 +22,7 @@ export function OrderPlaced() {
             <div className="col">
               <div className="alert alert-secondary bg-success text-white p-1 z-0">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000.svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}

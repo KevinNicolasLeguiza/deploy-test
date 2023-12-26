@@ -8,7 +8,7 @@ export function PaymentMethodsList() {
             <div className="row py-2">
               <div className="col-2 col-lg-1">
                 <img
-                  src="/public/icons/money-icon.svg"
+                  src={`${import.meta.env.BASE_URL || ''}/public/icons/money-icon.svg`}
                   alt="Icono de dinero"
                   className="w-100"
                 />
@@ -28,7 +28,7 @@ export function PaymentMethodsList() {
             <div className="row py-2">
               <div className="col-2 col-lg-1">
                 <img
-                  src="/public/icons/card-icon.svg"
+                  src={`${import.meta.env.BASE_URL || ''}/public/icons/card-icon.svg`}
                   alt="Icono de dinero"
                   className="w-100"
                 />
@@ -48,7 +48,7 @@ export function PaymentMethodsList() {
             <div className="row py-2">
               <div className="col-3 col-lg-2">
                 <img
-                  src="/public/icons/modo-icon.svg"
+                  src={`${import.meta.env.BASE_URL || ''}/public/icons/modo-icon.svg`}
                   alt="Icono de dinero"
                   className="w-100"
                 />
@@ -68,7 +68,7 @@ export function PaymentMethodsList() {
             <div className="row py-2">
               <div className="col-2 col-lg-1">
                 <img
-                  src="/public/icons/mercadopago-icon.svg"
+                  src={`${import.meta.env.BASE_URL || ''}/public/icons/mercadopago-icon.svg`}
                   alt="Icono de dinero"
                   className="w-100"
                 />

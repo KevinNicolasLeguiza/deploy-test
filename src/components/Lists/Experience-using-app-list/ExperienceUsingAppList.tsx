@@ -9,7 +9,7 @@ export function ExperienceUsingAppList() {
               style={{ width: 'calc(50% - 24px)' }}
             >
               <img
-                src="/public/icons/happy-face.svg"
+                src={`${import.meta.env.BASE_URL || ''}/public/icons/happy-face.svg`}
                 alt="Emoji de cara feliz"
                 className="h-100"
               />
@@ -28,7 +28,7 @@ export function ExperienceUsingAppList() {
               style={{ width: 'calc(50% - 24px)' }}
             >
               <img
-                src="/public/icons/confused-face.svg"
+                src={`${import.meta.env.BASE_URL || ''}/public/icons/confused-face.svg`}
                 alt="Emoji de cara confundida"
                 className="h-100"
               />
@@ -47,7 +47,7 @@ export function ExperienceUsingAppList() {
               style={{ width: 'calc(50% - 24px)' }}
             >
               <img
-                src="/public/icons/sad-face.svg"
+                src={`${import.meta.env.BASE_URL || ''}/public/icons/sad-face.svg`}
                 alt="Emoji de cara triste"
                 className="h-100"
               />

@@ -18,7 +18,7 @@ export function FinalizePurchaseModal() {
               <div className="row">
                 <div className="col-1 pt-0 pe-0">
                   <img
-                    src="/public/icons/ExclamationCircle.svg"
+                    src={`${import.meta.env.BASE_URL || ''}/public/icons/ExclamationCircle.svg`}
                     alt="Icono de exclamacion"
                     className="w-100"
                   />

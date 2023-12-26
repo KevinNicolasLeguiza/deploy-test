@@ -12,7 +12,7 @@ export function HomeCarousel() {
           data-bs-interval="10000"
         >
           <img
-            src="/public/home-carousel/carousel-image-1.svg"
+            src={`${import.meta.env.BASE_URL || ''}/public/home-carousel/carousel-image-1.svg`}
             className="d-block w-100 rounded"
             alt="..."
           />
@@ -22,7 +22,7 @@ export function HomeCarousel() {
           data-bs-interval="10000"
         >
           <img
-            src="/public/home-carousel/carousel-image-1.svg"
+            src={`${import.meta.env.BASE_URL || ''}/public/home-carousel/carousel-image-1.svg`}
             className="d-block w-100 rounded"
             alt="..."
           />
@@ -32,7 +32,7 @@ export function HomeCarousel() {
           data-bs-interval="10000"
         >
           <img
-            src="/public/home-carousel/carousel-image-1.svg"
+            src={`${import.meta.env.BASE_URL || ''}/public/home-carousel/carousel-image-1.svg`}
             className="d-block w-100 rounded"
             alt="..."
           />

@@ -4,7 +4,7 @@ export function AccountInfoOptionsList() {
       <div className="row border rounded p-3 py-4 my-3">
         <div className="col-2">
           <img
-            src="/public/icons/user-ico.svg"
+            src={`${import.meta.env.BASE_URL || ''}/public/icons/user-ico.svg`}
             alt="Icono usuarios"
             className="w-100"
           />
@@ -16,7 +16,7 @@ export function AccountInfoOptionsList() {
       <div className="row border rounded p-3 py-4 my-3">
         <div className="col-2">
           <img
-            src="/public/icons/invoice-icon.svg"
+            src={`${import.meta.env.BASE_URL || ''}/public/icons/invoice-icon.svg`}
             alt="Icono usuarios"
             className="w-100"
           />
@@ -28,7 +28,7 @@ export function AccountInfoOptionsList() {
       <div className="row border rounded p-3 py-4 my-3">
         <div className="col-2">
           <img
-            src="/public/icons/location-icon.svg"
+            src={`${import.meta.env.BASE_URL || ''}/public/icons/location-icon.svg`}
             alt="Icono usuarios"
             className="w-100"
           />

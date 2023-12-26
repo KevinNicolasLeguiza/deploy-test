@@ -4,7 +4,7 @@ export function AddressCard() {
       <div className="row">
         <div className="col-2">
           <img
-            src="/public/icons/location-icon.svg"
+            src={`${import.meta.env.BASE_URL || ''}/public/icons/location-icon.svg`}
             alt="Icono de direccion"
             className="h-100"
           />

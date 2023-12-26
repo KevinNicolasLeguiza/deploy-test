@@ -25,7 +25,7 @@ export function Home() {
             <div className="col">
               <div className="alert alert-warning py-2 px-4 mt-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000.svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   className="text-gold"

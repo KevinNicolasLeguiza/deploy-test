@@ -3,7 +3,7 @@ export function ViewDetailButton() {
     <button className="btn btn-outline-default d-flex flex-row justify-content-center align-items-center gap-2">
       <span className="text-dark">Ver detalle</span>
       <svg
-        xmlns="http://www.w3.org/2000/svg"
+        xmlns="http://www.w3.org/2000.svg"
         fill="none"
         viewBox="0 0 24 24"
         strokeWidth={1.5}

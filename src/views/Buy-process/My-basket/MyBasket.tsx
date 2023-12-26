@@ -26,7 +26,7 @@ export function MyBasket() {
               <button className="btn btn-outline-default d-flex flex-row justify-content-center align-items-center gap-2">
                 <span className="text-dark">Vaciar canasto</span>
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000.svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
@@ -75,7 +75,7 @@ export function MyBasket() {
             <div className="col d-flex">
               <button className="btn btn-outline-default d-flex flex-row justify-content-center align-items-center gap-1 my-auto">
                 <img
-                  src="/public/icons/sale-icon.svg"
+                  src={`${import.meta.env.BASE_URL || ''}/public/icons/sale-icon.svg`}
                   alt="Icono de ventas"
                   className="h-100"
                 />

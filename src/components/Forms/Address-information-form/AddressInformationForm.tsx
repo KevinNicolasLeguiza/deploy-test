@@ -23,7 +23,7 @@ export function AddressInformationForm() {
           <div className="input-group">
             <div className="input-group-text border-end-0 bg-default">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="http://www.w3.org/2000.svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
                 className=""

@@ -3,7 +3,7 @@ export function OnlineHelpButton() {
     <button className="btn btn-outline-default d-flex flex-row gap-2 justify-content-center align-items-center">
       <span className="text-black-50">Ayuda en linea</span>
       <svg
-        xmlns="http://www.w3.org/2000/svg"
+        xmlns="http://www.w3.org/2000.svg"
         fill="none"
         viewBox="0 0 24 24"
         strokeWidth={1.5}

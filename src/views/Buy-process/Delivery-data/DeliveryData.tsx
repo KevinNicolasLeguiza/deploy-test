@@ -45,7 +45,7 @@ export function DeliveryData() {
               <div className="input-group">
                 <span className="input-group-text border-end-0 bg-transparent">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns="http://www.w3.org/2000.svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     className=""
@@ -85,7 +85,7 @@ export function DeliveryData() {
               <div className="input-group">
                 <span className="input-group-text border-end-0 bg-transparent">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns="http://www.w3.org/2000.svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     className=""
@@ -108,7 +108,7 @@ export function DeliveryData() {
               </div>
               <div className="d-flex flex-row justify-content-start align-items-center py-1 gap-1">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000.svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   className="text-primary"

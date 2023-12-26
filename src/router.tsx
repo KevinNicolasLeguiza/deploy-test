@@ -3,12 +3,12 @@ import { routes } from './routes';
 
 export function Router() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL || import.meta.env.VITE_BASE_URL}>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         {Object.values(routes).map(({ element, path }, key) => (
           <Route
             key={key}
-            path={path}
+            path={`${import.meta.env.BASE_URL}${path}`}
             element={element}
           />
         ))}
