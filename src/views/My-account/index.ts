@@ -1,4 +1,6 @@
 export * from './Account-info/AccountInfo';
+export * from './My-address-information/MyAddressInformation';
+export * from './My-address-information/MyAddressInformationActive';
 export * from './My-addresses/MyAddresses';
 export * from './My-personal-information/My-Personal-Information';
 export * from './My-personal-information/MyPersonalInformationActive';
