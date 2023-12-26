@@ -1,0 +1,5 @@
+input[type='date'].remove_calendar_icon::-webkit-inner-spin-button,
+input[type='date'].remove_calendar_icon::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}

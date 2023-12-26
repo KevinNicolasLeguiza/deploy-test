@@ -1,4 +1,4 @@
-export * from './Delivary-data/DeliveryData';
+export * from './Delivery-data/DeliveryData';
 export * from './Home/Home';
 export * from './My-basket/MyBasket';
 export * from './Order-placed/OrderPlaced';
