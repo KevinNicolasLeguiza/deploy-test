@@ -34,7 +34,7 @@ export function Sidebar() {
         <ol>
           {Object.entries(routes).map(([pathName, { path }], key) => (
             <li key={key}>
-              <Link to={path}>
+              <Link to={`${import.meta.env.BASE_URL}#${path}`}>
                 <span data-bs-dismiss="offcanvas">{pathName}</span>
               </Link>
             </li>
