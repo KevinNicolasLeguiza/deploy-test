@@ -1,6 +1,6 @@
-import { Header, Sidebar } from '@/components';
+import { AccountInfoOptionsList, Header, Sidebar } from '@/components';
 
-export function Workspace() {
+export function AccountInfo() {
   return (
     <>
       <Sidebar />
@@ -18,7 +18,16 @@ export function Workspace() {
         </div>
         {/* CONTENT */}
         <div className="container mt-3">
-          <span>content</span>
+          <div className="row">
+            <div className="col">
+              <h5 className="fs-6 fw-semibold">Mi cuenta</h5>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <AccountInfoOptionsList />
+            </div>
+          </div>
         </div>
       </main>
     </>
