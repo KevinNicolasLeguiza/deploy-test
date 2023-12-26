@@ -13,6 +13,7 @@ import {
   MyAddresses,
   MyAddressInformation,
   MyAddressInformationActive,
+  NewAddress,
 } from '@/views';
 
 export const routes = Object.freeze({
@@ -67,6 +68,10 @@ export const routes = Object.freeze({
   'My address information active': {
     path: '/address-information-active',
     element: <MyAddressInformationActive />,
+  },
+  'New address': {
+    path: '/new-address',
+    element: <NewAddress />,
   },
   Workspace: {
     path: '/workspace',
