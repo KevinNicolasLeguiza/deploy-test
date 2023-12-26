@@ -19,6 +19,15 @@ import {
 export const routes = Object.freeze({
   Home: {
     path: '/deploy-test',
+    element: (
+      <>
+        <span>Home deploy test</span>
+        <Home />
+      </>
+    ),
+  },
+  Home2: {
+    path: '/',
     element: <Home />,
   },
   'My Basket': {
