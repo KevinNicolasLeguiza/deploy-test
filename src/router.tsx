@@ -3,7 +3,7 @@ import { routes } from './routes';
 
 export function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.BASE_URL}>
       <Routes>
         {Object.values(routes).map(({ element, path }, key) => (
           <Route
