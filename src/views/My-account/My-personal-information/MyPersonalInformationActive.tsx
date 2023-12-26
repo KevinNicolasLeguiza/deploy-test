@@ -1,6 +1,6 @@
-import { EditButton, Header, PersonalInformationForm, Sidebar } from '@/components';
+import { EditButtonActive, Header, PersonalInformationFormActive, Sidebar } from '@/components';
 
-export function MyPersonalInformation() {
+export function MyPersonalInformationActive() {
   return (
     <>
       <Sidebar />
@@ -25,11 +25,11 @@ export function MyPersonalInformation() {
           </div>
           <div className="row">
             <div className="col d-flex flex-row justify-content-end align-items-center">
-              <EditButton />
+              <EditButtonActive />
             </div>
           </div>
           <div className="row">
-            <PersonalInformationForm />
+            <PersonalInformationFormActive />
           </div>
         </div>
       </main>

@@ -1,5 +1,3 @@
-import styles from './PersonalInformationForm.module.css';
-
 export function PersonalInformationFormActive() {
   return (
     <div className="container">
@@ -44,7 +42,7 @@ export function PersonalInformationFormActive() {
             <input
               id="birthdate-input"
               type="date"
-              className={`form-control border-start-0 ${styles.remove_calendar_icon}`}
+              className={`form-control border-start-0 remove_calendar_icon`}
             />
           </div>
         </div>

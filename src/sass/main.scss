@@ -10,3 +10,9 @@
   min-height: 100vh;
   overflow-x: hidden;
 }
+
+input[type='date'].remove_calendar_icon::-webkit-inner-spin-button,
+input[type='date'].remove_calendar_icon::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}

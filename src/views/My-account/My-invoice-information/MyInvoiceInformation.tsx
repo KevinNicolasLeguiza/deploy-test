@@ -1,6 +1,6 @@
-import { Header, PersonalInformationFormActive, Sidebar } from '@/components';
+import { EditButton, Header, InvoiceInformationForm, Sidebar } from '@/components';
 
-export function MyPersonalInformationActive() {
+export function MyInvoiceInformation() {
   return (
     <>
       <Sidebar />
@@ -25,17 +25,11 @@ export function MyPersonalInformationActive() {
           </div>
           <div className="row">
             <div className="col d-flex flex-row justify-content-end align-items-center">
-              <button className="btn btn-outline-primary d-flex flex-row gap-2 align-items-center">
-                <span>Editar</span>
-                <img
-                  src="/public/icons/edit-icon.svg"
-                  alt="Icono de lapiz"
-                />
-              </button>
+              <EditButton />
             </div>
           </div>
           <div className="row">
-            <PersonalInformationFormActive />
+            <InvoiceInformationForm />
           </div>
         </div>
       </main>

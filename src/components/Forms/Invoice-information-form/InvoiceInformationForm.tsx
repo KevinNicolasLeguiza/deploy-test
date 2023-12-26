@@ -1,7 +1,38 @@
-export function PersonalInformationForm() {
+export function InvoiceInformationForm() {
   return (
     <div className="container">
       <div className="row">
+        <div className="col">
+          <label htmlFor="dni-input">DNI</label>
+          <input
+            id="dni-input"
+            type="number"
+            className="form-control"
+            disabled
+          />
+        </div>
+      </div>
+      <div className="row mt-3">
+        <div className="col">
+          <label htmlFor="cuil-input">CUIL</label>
+          <div className="input-group">
+            <input
+              id="cuil-input"
+              type="text"
+              className="form-control border-start-0"
+              placeholder=""
+              aria-label="Cuil"
+              disabled
+            />
+          </div>
+          <div className="d-flex flex-row justify-content-end">
+            <button className="btn btn-primary bg-transparent border-0 py-0 text-primary">
+              <span className="small">¿Como puedo saber mi cuil?</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="row mt-3">
         <div className="col">
           <label htmlFor="first-name-input">Nombre</label>
           <input
@@ -25,17 +56,6 @@ export function PersonalInformationForm() {
       </div>
       <div className="row mt-3">
         <div className="col">
-          <label htmlFor="dni-input">DNI</label>
-          <input
-            id="dni-input"
-            type="number"
-            className="form-control"
-            disabled
-          />
-        </div>
-      </div>
-      <div className="row mt-3">
-        <div className="col">
           <label htmlFor="birthdate-input">Fecha de nacimiento</label>
           <div className="input-group bg-default">
             <img
@@ -45,7 +65,7 @@ export function PersonalInformationForm() {
             <input
               id="birthdate-input"
               type="date"
-              className="form-control border-start-0 remove_calendar_icon"
+              className={`form-control border-start-0 remove_calendar_icon`}
               disabled
             />
           </div>
