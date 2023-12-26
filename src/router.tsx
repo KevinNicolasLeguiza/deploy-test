@@ -4,7 +4,7 @@ import { RouterProvider, createHashRouter } from 'react-router-dom';
 import { routes } from './routes';
 
 export function Router() {
-  const router = createHashRouter(Object.values(routes));
+  const router = createHashRouter(Object.values(routes), { basename: import.meta.env.BASE_URL });
   return (
     // <BrowserRouter basename={import.meta.env.BASE_URL}>
     //   <Routes>
