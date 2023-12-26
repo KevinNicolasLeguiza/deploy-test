@@ -1,4 +1,5 @@
 import { routes } from '@/routes';
+import { Link } from 'react-router-dom';
 
 export function Sidebar() {
   return (
@@ -33,7 +34,9 @@ export function Sidebar() {
         <ol>
           {Object.entries(routes).map(([pathName, { path }], key) => (
             <li key={key}>
-              <a href={`/#${path}`}>{pathName}</a>
+              <Link to={path}>
+                <span data-bs-dismiss="offcanvas">{pathName}</span>
+              </Link>
             </li>
           ))}
         </ol>
