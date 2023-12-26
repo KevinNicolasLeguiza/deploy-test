@@ -10,6 +10,7 @@ import {
   MyPersonalInformationActive,
   MyInvoiceInformation,
   MyInvoiceInformationActive,
+  MyAddresses,
 } from '@/views';
 
 export const routes = Object.freeze({
@@ -52,6 +53,10 @@ export const routes = Object.freeze({
   'My invoice information active': {
     path: '/my-invoice-information-active',
     element: <MyInvoiceInformationActive />,
+  },
+  'My addresses': {
+    path: '/my-addresses',
+    element: <MyAddresses />,
   },
   Workspace: {
     path: '/workspace',
