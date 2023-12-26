@@ -18,7 +18,7 @@ import {
 
 export const routes = Object.freeze({
   Home: {
-    path: '/',
+    path: '/deploy-test',
     element: <Home />,
   },
   'My Basket': {
